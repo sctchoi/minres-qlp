@@ -7,4 +7,4 @@ I read the paper about MINRES-QLP. But I have some questions. Since I don't unde
 
 = Answer =
 
-The 1975 paper may not be an easy one to understand and Choi's thesis (http://bit.ly/Nl6XI7) could be considered an attempt to demystify some of the key ideas. The book by Van der Vorst (http://bit.ly/Nl6N3n) is a good one as well.
+The 1975 paper may not be an easy one to understand and Chapter 2 in Choi's thesis (http://bit.ly/Nl6XI7) could be considered an attempt to demystify some of the key ideas. The book by Van der Vorst (http://bit.ly/Nl6N3n) is a good one as well.
