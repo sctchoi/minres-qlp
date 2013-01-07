@@ -1,0 +1,11 @@
+#summary Translating MINRES-QLP into Python.
+
+= Question =
+I'm interested in using MINRES-QLP to solve linear equation as part of a truncated Newton-like algorithm (instead of the classical linear CG). This is for research purposes; I'm a PhD student at […].  I'm interested in knowing what is the license of MINRES-QLP? Can I translate it into Python?  Can I have this translated code with a BSD license?
+
+
+= Answer =
+
+You are certainly welcome to translate MINRES-QLP into Python. A BSD license is fine.  References in your Python code to our SISC and ACM TOMS papers is not necessary but will be appreciated for documentation purpose.
+
+When the python translation is created, we would be glad to add it to our project website for MINRES-QLP and list you as a contributor.  
