@@ -2,7 +2,7 @@
 
 = Question =
 
-I read the paper about MINRES-QLP. But I have some questions. Since I don't understand MINRES and SYMMLQ very well, there are some difficulties to understand your paper. When I read the paper "Solution of Sparse Indefinite Systems of Linear Equations" by C. C. Paige and M. A. Saunders. I was a little confused about the structure and the explanations. Can you recommend some other papers that focus on MINRES and SYMMLQ?
+I read the paper about MINRES-QLP. But I have some questions. Since I don't understand MINRES and SYMMLQ very well, there are some difficulties to understand your paper. When I read the paper "Solution of Sparse Indefinite Systems of Linear Equations" by C. C. Paige and M. A. Saunders, I was a little confused about the structure and the explanations. Can you recommend some other papers that focus on MINRES and SYMMLQ?
 
 
 = Answer =
