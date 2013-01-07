@@ -2,7 +2,7 @@
 
 = Question =
 
-I'm interested in using MINRES-QLP to solve linear equation as part of a truncated Newton-like algorithm (instead of the classical linear CG). This is for research purposes; I'm a PhD student at […].  I'm interested in knowing what is the license of MINRES-QLP? Can I translate it into Python?  Can I have this translated code with a BSD license? 
+I'm interested in using MINRES-QLP to solve linear equations as part of a truncated Newton-like algorithm (instead of the classical linear CG). This is for research purposes; I'm a PhD student at […].  I'm interested in knowing what is the license of MINRES-QLP? Can I translate it into Python?  Can I have this translated code with a BSD license? 
 
 
 = Answer =
