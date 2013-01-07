@@ -9,6 +9,6 @@ I am a student in ME department of […] University. My research is on the numer
 
 A number of good books on Krylov subspace methods are available:
 Trefethen and Bau, Demmel, Golub and van Loan, Saad, van der Vorst;
-see http://j.mp/WmNPYW for details.
+see http://j.mp/WmPttk for details.
 
 Apparently many of Gene's CME 324 lecture notes from Spring 2006 are archived at http://j.mp/WmNJ3u
