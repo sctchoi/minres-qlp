@@ -6,6 +6,6 @@ I'm interested in using MINRES-QLP to solve linear equation as part of a truncat
 
 = Answer =
 
-You are certainly welcome to translate MINRES-QLP into Python. A BSD license is fine.  References in your Python code to our SISC and ACM TOMS papers is not necessary but will be appreciated for documentation purpose.
+MINRES-QLP is freely available software provided by the authors under the CPL or BSD licenses. There are Matlab and Fortran 90 implementations and documentation. You are certainly welcome to translate MINRES-QLP into Python. A BSD license is fine.  References in your Python code to our SISC and ACM TOMS papers is not necessary but will be appreciated for documentation purpose.
 
 When the python translation is created, we would be glad to add it to our project website for MINRES-QLP and list you as a contributor.  
