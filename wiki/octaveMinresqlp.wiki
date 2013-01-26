@@ -18,6 +18,8 @@ It does!  We tested it using "GNU Octave, version 3.2.4" on an operating system 
   ans =  1.7093e-14
 }}}
 
+For this example, the true solution has components all equal to one.
+
 The iteration log was as follows:
 {{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min ||(A-sI)x - b||
