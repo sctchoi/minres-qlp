@@ -98,7 +98,7 @@ Exit minresQLP.   Anorm =  1.8028e+00     Acond         =  3.7002e+03
 }}}
 
 
-== Exaxmple 1 ==
+== Exaxmple 2 ==
 We ran the following least-squares problem in Octave and computed the residual norm directly:
 {{{
   h = 1;  a = -10; b = -a; n = 2*b/h + 1;  
@@ -110,7 +110,34 @@ We ran the following least-squares problem in Octave and computed the residual n
   ans =  3.8235e-09
 }}}
 
-For this example, the true solution has components all equal to one.
+For this example, the solution is as follows:
+
+{{{
+  
+x =
+
+   -0.100000
+   -0.111111
+   -0.125000
+   -0.142857
+   -0.166667
+   -0.200000
+   -0.250000
+   -0.333333
+   -0.500000
+   -1.000000
+   12.248403
+    1.000000
+    0.500000
+    0.333333
+    0.250000
+    0.200000
+    0.166667
+    0.142857
+    0.125000
+    0.111111
+    0.100000
+}}}
 
 The iteration log was as follows:
 {{{
