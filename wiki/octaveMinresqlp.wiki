@@ -18,7 +18,7 @@ It does!  We tested it using "GNU Octave, version 3.2.4" on an operating system 
   ans =  1.7093e-14
 }}}
 
-The iteration log is as follows:
+The iteration log was as follows:
 {{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min ||(A-sI)x - b||
 n      =    100   ||b||    = 1.414e+00   shift    = 0.000e+00   rtol     = 1.000e-10
