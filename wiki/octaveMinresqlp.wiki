@@ -7,7 +7,10 @@ Does MINRES-QLP's Matlab implementation works in Octave?
 
 = Details =
 
-It does!  We tested it using "GNU Octave, version 3.2.4" on an operating system "x86_64 GNU/Linux". We ran the following example in Octave and computed the residual norm directly:
+It does!  We tested it using "GNU Octave, version 3.2.4" on an operating system "x86_64 GNU/Linux". 
+
+== Exaxmple 1 ==
+We ran the following example in Octave and computed the residual norm directly:
 {{{
   cd CPS11/Algorithms/MINRESQLP/
   n = 100;                                  e = ones(n,1);
