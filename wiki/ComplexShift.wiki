@@ -10,7 +10,7 @@ Hermitian linear systems, with complex offset.
 By complex offset, I meant that the shift input (sigma) of the matrix A is a complex number, with a small, but non-zero imaginary component. Since the variable is a complex number, I presume that it can handle this case? I have set the code up, and interfaced it with mine. I must remark that the code looks as though it is fantastically written and well documented - many thanks! Linking it into my code and getting it working was no trouble. 
 
 
-I construct a hamiltonian (H), and offset it by an energy (E = shift I), and solve for when it equals a perturbed system as (H-E)x = y. When E is equal to an eigenvalue of the system, the matrix becomes singular, and you get a peak in say <x|y>, as you would in say a spectroscopic spectrum. From my limited running with your minresqlp package, it is not performing well (say compared to ZGESV or ZGELS) as (H-E) becomes close to singular. The matrix is saved from being truly singular by the complex component in E, which acts to broaden the peak. The algorithm generally gets stuck, and hits the iteration limit..
+I construct a Hamiltonian (H), and offset it by an energy (E = shift I), and solve for when it equals a perturbed system as (H-E)x = y. When E is equal to an eigenvalue of the system, the matrix becomes singular, and you get a peak in say <x|y>, as you would in say a spectroscopic spectrum. From my limited running with your minresqlp package, it is not performing well (say compared to ZGESV or ZGELS) as (H-E) becomes close to singular. The matrix is saved from being truly singular by the complex component in E, which acts to broaden the peak. The algorithm generally gets stuck, and hits the iteration limit..
 
  
 = Answer =
