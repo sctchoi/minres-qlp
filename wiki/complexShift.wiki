@@ -19,7 +19,7 @@ Given A Hermitian, shift has to be real for (A-shift) I to remain Hermitian.  It
 
 
 
-If the original problem is not too ill conditioned, then in Matlab notation, the normal equation is a workaround (eye is identity, s is shift):
+If the original problem is not too ill-conditioned, then in Matlab notation, the normal equation is a workaround (eye is identity, s is shift):
 {{{
    x=minresqlp((A-conj(s)*eye(n))*(A-s*eye(n)), (A-conj(s)*eye(n))*b)
 }}}
