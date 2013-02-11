@@ -14,7 +14,7 @@ The algorithm generally gets stuck, and hits the iteration limit...
  
 = Answer =
 
-Given A Hermitian, shift has to be real for (A-shift) I to remain Hermitian.  It is unfortunate that the version-20 Fortran-90 implementation for shift is not type safe.  We have been working to produce a new version that include numerous other minor updates to make the code and documentation more polished.
+Given A Hermitian, shift has to be real for (A-shift) I to remain Hermitian.  It is unfortunate that the version-20 Fortran-90 implementation for shift is not type safe.  We have been working to produce a new version that restrict shift to real and include numerous other minor updates to make the code and documentation more polished.
 
 
 
