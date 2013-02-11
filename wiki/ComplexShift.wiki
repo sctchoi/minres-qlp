@@ -24,5 +24,4 @@ If the original problem is not too ill conditioned, then in Matlab notation, the
    x=minresqlp((A-conj(s)*eye(n))*(A-s*eye(n)), (A-conj(s)*eye(n))*b)
 }}}
 
-
-Let us take a step back: if H is Hermitian, then its eigenvalues are real. Thus the shift should be real, in which case MINRES-QLP is totally applicable.  
+ 
