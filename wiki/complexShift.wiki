@@ -15,7 +15,7 @@ I construct a Hamiltonian (_H_), and offset it by an energy (_E = shift I_), and
  
 = Answer =
 
-Given _A_ Hermitian, _shift_ has to be real for (_A-shift*I_)  to remain Hermitian.  It is unfortunate that the version-20 Fortran-90 implementation for shift is not type safe.  We have been working to produce a new version that restrict shift to real and include numerous other minor updates to make the code and documentation more polished.
+Given _A_ Hermitian, _shift_ has to be real for (_A-shift*I_)  to remain Hermitian.  It is unfortunate that the version-20 Fortran-90 implementation for _shift_ is not type safe.  We have been working to produce a new version that restrict shift to real and include numerous other minor updates to make the code and documentation more polished.
 
 
 
