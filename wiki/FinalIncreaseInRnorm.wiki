@@ -13,7 +13,7 @@ In more detail, for the second case we have
    x2   = minresQLP(A,b1,rtol,maxit,M,shift,maxxnorm,acondlim,trancond);
 }}}
 
-and the log begin and ends with
+and the log begins and ends with
 
 {{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min ||(A-sI)x - b||
