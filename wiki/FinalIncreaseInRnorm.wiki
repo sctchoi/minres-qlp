@@ -39,4 +39,4 @@ As commented in the Matlab script, the final increase in rnorm is what seems to 
 
 = Answer =
 
-Normally rnorm is monotonically decreasing in MINRES-QLP. However, in the last iteration of MINRES-QLP, an increase in rnorm is not a bug if there is a decrease in xnorm. It is a regularization feature of MINRES-QLP. 
+Normally ||r|| is monotonically nonincreasing in MINRES-QLP. However, in the last iteration of MINRES-QLP, an increase in ||r|| is not a bug if there is a decrease in ||x||. It is a regularization feature of MINRES-QLP.  
