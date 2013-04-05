@@ -2,9 +2,7 @@
 
 = Question =
 
-The script shows the input and summarizes in comments what
-happened with rtol = 1e-8 and 1e-12 (with maxxnorm = 1e+8 both times).
-In more detail, for the second case we have
+The Matlab script "testmhd3200b.m" shows the input and summarizes in comments what happened with rtol = 1e-8 and 1e-12 (with maxxnorm = 1e+8 both times). In more detail, for the second case we have
 
 {{{
    b1   = ones(n,1);
@@ -13,7 +11,7 @@ In more detail, for the second case we have
    x2   = minresQLP(A,b1,rtol,maxit,M,shift,maxxnorm,acondlim,trancond);
 }}}
 
-and the log begins and ends with
+and the log file "testmhd3200b.log" begins and ends with
 
 {{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min ||(A-sI)x - b||
@@ -36,8 +34,7 @@ Exit minresQLP.   xnorm =  2.4941e+06     xnorm  direct =  2.4941e+06
 Exit minresQLP.   Anorm =  5.6600e+01     Acond         =  1.9813e+08
 }}}
 
-As commented in the script, the final increase in rnorm is what seems to
-imply a bug. 
+As commented in the Matlab script, the final increase in rnorm is what seems to imply a bug. 
 
 
 = Answer =
