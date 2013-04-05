@@ -11,7 +11,7 @@ The Matlab script "testmhd3200b.m" shows the input and summarizes in comments wh
    x2   = minresQLP(A,b1,rtol,maxit,M,shift,maxxnorm,acondlim,trancond);
 }}}
 
-and the log file "testmhd3200b.log" begins and ends with
+and the log begins and ends with
 
 {{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min ||(A-sI)x - b||
