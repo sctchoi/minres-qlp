@@ -6,13 +6,16 @@ The script shows the input and summarizes in comments what
 happened with rtol = 1e-8 and 1e-12 (with maxxnorm = 1e+8 both times).
 In more detail, for the second case we have
 
+{{{
    b1   = ones(n,1);
    maxxnorm = 1e+8;
    rtol = 1e-12;
    x2   = minresQLP(A,b1,rtol,maxit,M,shift,maxxnorm,acondlim,trancond);
+}}}
 
 and the log begin and ends with
 
+{{{
 Enter minresQLP.  Min-length solution of symmetric (A-sI)x = b or min
 ||(A-sI)x - b||
 n      =   3200   ||b||    = 5.657e+01   shift    = 0.000e+00   rtol
@@ -38,6 +41,7 @@ Exit minresQLP.   rnorm =  3.8381e+01     rnorm  direct =  3.8381e+01
 Exit minresQLP.                           Arnorm direct =  4.7641e+00
 Exit minresQLP.   xnorm =  2.4941e+06     xnorm  direct =  2.4941e+06
 Exit minresQLP.   Anorm =  5.6600e+01     Acond         =  1.9813e+08
+}}}
 
 As commented in the script, the final increase in rnorm is what seems to
 imply a bug. 
@@ -46,5 +50,3 @@ imply a bug.
 = Answer =
 
 Normally rnorm is monotonically decreasing in MINRES-QLP. However, in the last iteration of MINRES-QLP, an increase in rnorm is not a bug if there is a decrease in xnorm. It is a regularization feature of MINRES-QLP. 
-
-
