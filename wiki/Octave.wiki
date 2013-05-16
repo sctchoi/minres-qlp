@@ -8,7 +8,7 @@ How to install Octave on Mac OS X?
 = Details =
 
   # Install Xcode 4.3 or above. 
-  # Install Xcode command line tools via XCode->Preferences->Download     
+  # Install Xcode command line tools via XCode -> Preferences -> Download     
   # Install MacPorts from:  http://www.macports.org/install.php
   # Run: 
 {{{
