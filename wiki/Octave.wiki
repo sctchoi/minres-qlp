@@ -14,9 +14,9 @@ How to install Octave on Mac OS X?
 {{{
 sudo port install octave-devel +atlas+docs
 }}}
-  # If it failed to install the package xorg-bigreqsproto,
-  # Install X11 for Mac OS X from:  http://xquartz.macosforge.org/landing/
-  # Install Java JRE v7.0 Update 11
+  # If it failed to install the package xorg-bigreqsproto, do the following:
+    * Install X11 for Mac OS X from:  http://xquartz.macosforge.org/landing/
+    * Install Java JRE v7.0 Update 11
   # For some dependent packages still failing to be installed, run command to install them manually:  
 {{{
 sudo port install ghostscript
