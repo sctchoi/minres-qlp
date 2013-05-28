@@ -21,9 +21,9 @@ sudo port install octave-devel +atlas+docs
 {{{
 sudo port install ghostscript
 }}}
-Or try:
+  Or try:
 {{{
-sudo port clean qrupdate -f
+sudo port clean FAILED_PACKAGE -f
 sudo port install octave-devel +atlas+docs
 }}}
  
