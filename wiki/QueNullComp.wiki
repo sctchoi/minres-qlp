@@ -1,4 +1,4 @@
-#summary Questions on nullvector computation.
+#summary Questions on nullvector computations.
 
 = Question =
 
