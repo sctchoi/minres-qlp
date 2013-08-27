@@ -4,7 +4,7 @@
 
 
 I'm a graduate student in EE at Caltech. I was wondering if you have
-Matlab code available for the complex symmetric version of your minresQLP algorithm. I noticed on your website that it says "coming soon", but I was wondering if there is anything currently available that I could try out. I am solving very large (poorly conditioned) sparse systems that arise from finite difference discretization of 3D time-harmonic Maxwell's equations. The resulting system matrices are complex symmetric, and I have been using the BiCGStab(l) algorithm thus far with mixed success. BiCGStab(l) seems to often stagnate and get stuck on larger problems, and I have to restart it with different initial conditions to achieve convergence. Thus, I really would like to evaluate the performance of CS-MINRESQLP for my
+Matlab code available for the complex symmetric version of your minresQLP algorithm. I noticed on your website that it says "coming soon", but I was wondering if there is anything currently available that I could try out. I am solving very large (poorly conditioned) sparse systems that arise from finite difference discretization of 3D time-harmonic Maxwell's equations. The resulting system matrices are complex symmetric, and I have been using the BiCGStab(l) algorithm thus far with mixed success. BiCGStab(l) seems to often stagnate and get stuck on larger problems, and I have to restart it with different initial conditions to achieve convergence. Thus, I really would like to evaluate the performance of CS-MINRES-QLP for my
 problem. 
 
 
