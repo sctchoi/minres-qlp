@@ -1,4 +1,4 @@
-=About MINRES-QLP=
+# About MINRES-QLP
 
 <p><p align="center"> <img src="http://minres-qlp.googlecode.com/files/minresqlp-toms-banner.jpg" width="100%" align="middle" alt="Logo"></img> </p> </p>
 
@@ -6,19 +6,19 @@
 
 <p>MINRES-QLP is created and developed by <a href="http://home.uchicago.edu/sctchoi" rel="nofollow">Sou-Cheng Choi</a> (University of Chicago and Argonne National Laboratory), <a href="http://www.cs.mcgill.ca/~chris/" rel="nofollow">Christopher Paige</a> (McGill University), and <a href="http://www.stanford.edu/~saunders/" rel="nofollow">Michael Saunders</a> (Stanford University). The MINRES-QLP Matlab/Octave package and MINRES-QLP Fortran 90 package are written and maintained by <a href="http://home.uchicago.edu/sctchoi" rel="nofollow">Sou-Cheng Choi</a> and <a href="http://www.stanford.edu/~saunders/" rel="nofollow">Michael Saunders</a>.</p>
 
-=Free Software Download=
+# Free Software Download
   * CS-MINRES-QLP in Matlab/Octave version 1 (<a href="http://home.uchicago.edu/~sctchoi/csminresqlp.m">Download</a>, <a href="http://home.uchicago.edu/~sctchoi/bibtex_C13_Matlab_v1.txt">Bibtex</a>) 
  
   * MINRES-QLP PetSc implementation: Coming soon
 
   * MINRES-QLP Matlab/Octave Package  (<a href="http://bit.ly/12KcsW7">Download</a>, <a href="http://bit.ly/VA3kki">Bibtex</a>)
      
-      ** MINRES-QLP algorithm version 2 (<a href="http://home.uchicago.edu/sctchoi/minresqlp.m">Download</a>, <a href="http://home.uchicago.edu/sctchoi/bibtex_CS13_Matlab_v2.txt">Bibtex</a>) 
-      ** MINRES-QLP algorithm version 1 (<a href="http://bit.ly/12KcsW7">Download</a>, <a href="http://bit.ly/VA3kki">Bibtex</a>) 
+      * MINRES-QLP algorithm version 2 (<a href="http://home.uchicago.edu/sctchoi/minresqlp.m">Download</a>, <a href="http://home.uchicago.edu/sctchoi/bibtex_CS13_Matlab_v2.txt">Bibtex</a>) 
+      * MINRES-QLP algorithm version 1 (<a href="http://bit.ly/12KcsW7">Download</a>, <a href="http://bit.ly/VA3kki">Bibtex</a>) 
  
 
   * MINRES-QLP Fortran 90/95 Package (<a href="http://home.uchicago.edu/~sctchoi/minresqlp_f90_ver27.tar.gz">Download from author's website</a> or <a href="http://www.netlib.org/toms/"> Download 937.zip from ACM</a>, <a href="http://bit.ly/X2uf4Q">Bibtex</a>)  
-      ** Matlab MEX interface---experimental (<a href="http://home.uchicago.edu/~sctchoi/minresqlp_mex_f90_ver27.tar.gz">Download</a>, <a href="http://bit.ly/X2uf4Q">Bibtex</a>)    
+      * Matlab MEX interface---experimental (<a href="http://home.uchicago.edu/~sctchoi/minresqlp_mex_f90_ver27.tar.gz">Download</a>, <a href="http://bit.ly/X2uf4Q">Bibtex</a>)    
 
   * <a href="http://www.stanford.edu/group/SOL/software/minres.html">MINRES</a> in Matlab/Octave and Fortran 95
 
@@ -26,7 +26,7 @@
 
   
 
-=Papers and Documentation=
+# Papers and Documentation
 
 
   * <img src="http://home.uchicago.edu/~sctchoi/new.png" alt="new"/> <a href="http://toms.acm.org/Volumes/V40.html">ALGORITHM 937: MINRES-QLP for Symmetric and Hermitian Linear Equations and Least-Squares Problems</a>. ACM Transactions on Mathematical Software, Volume 40, Number 2, 2014. (<a href="http://home.uchicago.edu/sctchoi/MINRESQLP_TOMS24.pdf">Offprint</a>, <a href="http://bit.ly/VA4kVH">Bibtex</a>)
@@ -43,14 +43,14 @@
 
 <hr/>
 
-=Presentations=
+# Presentations
 
-==Plenary/Prize Talks==
+## Plenary/Prize Talks
   * <a href="http://lxy.fz.lyu.edu.cn/english/pdf/tongzhi02.pdf">Krylov and Saunders Subspace Methods</a>, The Eleventh International Conference on Matrix Theory and Applications, Linyi University, Shangdong, People's Republic of China, June 15, 2014.
 
   * <a href="http://bit.ly/VAgxKb">MINRES-QLP: a Krylov Subspace Method for Indefinite or Singular Symmetric Systems</a>, SIAG/LA Prize Ceremony, SIAM Conference on Applied Linear Algebra, Universitat Politècnica de València, Valencia, Spain, June 21, 2012.
 
-==Invited Talks==
+## Invited Talks
   * <a href="http://icmsec.cc.ac.cn/news/seminars.html">Krylov and Saunders Subspace Methods</a>, Chinese Academy of Sciences, Beijing, People's Republic of China, June 20, 2014.
 
   * Reliable Reproducible Research in Computational Sciences through Sustainable Software Practices, Chinese Academy of Sciences, Beijing, People's Republic of China, June 19, 2014.
@@ -82,7 +82,7 @@
   * <a href="https://www.cs.kuleuven.be/conference/sla2012/timetable.php">Krylov Solvers for Singular Symmetric, Hermitian, Complex Symmetric, or Skew Symmetric Linear Systems</a>, Structured Linear Algebra Problems: Analysis, Algorithms and Applications, KU Leuven, Leuven, Belgium, September 10, 2012.
 
 
-==Conference Talks==
+## Conference Talks
    * <a href="http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=18698">Krylov Subspace Methods for Solving Singular Linear Systems or Least-Squares Problems</a>, SIAM Annual Meeting, Chicago, IL, July 8, 2014.
 
    * <a href="https://pantherfile.uwm.edu/wade/www/MWNADAY2014.html">Extending GMRES for Singular Systems of Equations</a>, Mid-West Numerical Analysis Day, Milwaukee, Wisconsin, May 3, 2014.
@@ -93,7 +93,7 @@
 
   * <a href="http://compmath50.stanford.edu/">MINRES-QLP: A Krylov Subspace Method for Singular Symmetric Linear Equations and Least-Squares Problems</a>, Stanford 50: State of the Art and Future Directions of Computational Mathematics and Numerical Computing, Stanford, CA, March 29, 2007.
 
-==Seminars==
+## Seminars
 
    * <a href="http://www.math.iit.edu/~Meshfree-methods-seminar/index_su14.html">Good Practices for Mathematical Software</a>, Meshfree Methods Seminar, Department of Applied Mathematics, Illinois Institute of Technology, Chicago IL, May 21, 2014.
 
@@ -110,7 +110,7 @@
   * <a href="http://csmr.ca.sandia.gov/pipermail/banana/2007-January/000839.html">MINRES-QLP: A Krylov Subspace Method for Singular Symmetric Linear Equations and Least-Squares Problems</a>, UC Berkeley linear algebra (LAPACK) seminar, Berkeley, CA, January 17, 2007.
 <hr/>
 
-=Applications=
+# Applications
   * <a href="http://link.springer.com/article/10.1007%2Fs00034-014-9745-1">Auto-Regressive Moving Average Models on Complex-Valued Matrix Lie Groups.</a>  Circuits, Systems, and Signal Processing (2014): 1-25.
 
   * <a href="http://www.computer.org/portal/web/computingnow/content?g=53319&type=article&urlTitle=discrete-hodge-theory-on-graphs%3A-a-tutorial">Discrete Hodge Theory on Graphs: A Tutorial.</a> Computing in Science and Engineering 15.5 (2013): 42-55.
@@ -149,10 +149,10 @@
 
 <hr/>
 
-=Honors=
+# Honors
 <a href="http://bit.ly/JmTXOg"><I>SIAG/LA Prize 2012</I></a> (<a href="http://bit.ly/10dyLiO">Photo</a>)
 
-=Acknowledgement=
+# Acknowledgement
 
 Our work was supported in part by grants from    
   * the <a href="http://science.energy.gov/ascr/">Office of Advanced Scientific Computing Research</a>, <a href="http://science.energy.gov/">Office of Science</a>, <a href="http://energy.gov">U.S. Department of Energy</a>, under contract DE-AC02-06CH11357
@@ -161,7 +161,7 @@ Our work was supported in part by grants from
 
   * the Office of Naval Research grants N00014-02-1-0076 and N00014-08-1-0191; and U.S. Army Research Laboratory through the Army High Performance Computing Research Center.
 
-=Media=
+# Media
   
   * <a href="http://connect.siam.org/?p=2079">SIAM Journal authors win the 2012 SIAG/Linear Algebra Prize</a>
 
@@ -197,13 +197,13 @@ Our work was supported in part by grants from
 
 <hr/>
 
-==For Help==
+## For Help
 
   * Refer to our <a href="http://code.google.com/p/minres-qlp/w/list">Wiki pages</a> for information and frequently asked questions. 
   * Review and search <a href="http://code.google.com/p/minres-qlp/issues/list">Issues</a> for your questions about MINRES-QLP. If it does not help, you may file a <a href="http://code.google.com/p/minres-qlp/issues/entry">new issue ticket</a> and we will respond as soon as we could.  
   * Email questions and comments to <a href="mailto:sctchoi@uchicago.edu" rel="nofollow">sctchoi@uchicago.edu</a>. 
 
 
-==To Help==
+## To Help
  
 If you would like to contribute to the software development or documentation of the framework, please contact <a href="mailto:sctchoi@uchicago.edu">sctchoi@uchicago.edu.</a>
